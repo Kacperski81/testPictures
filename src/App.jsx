@@ -1,10 +1,9 @@
-
+import CardsWrapper from "./components/CardsWrapper";
 
 function App() {
   return (
     <div>
-      <h2>Test images</h2>
-      <img src="./images/abc.png" style={{width:"200px"}}/>
+      <CardsWrapper />
     </div>
   )
 }
